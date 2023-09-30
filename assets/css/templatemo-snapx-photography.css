@@ -79,7 +79,6 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  background-color: #fff;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -118,17 +117,14 @@ Global Styles
 */
 html,
 body {
-  background: #fff;
   font-family: 'Roboto', sans-serif;
 }
 
 ::selection {
-  background: #00bdfe;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #00bdfe;
   color: #fff;
 }
 
@@ -151,7 +147,6 @@ body {
 .border-button a {
   font-size: 15px;
   color: #00bdfe;
-  background-color: transparent;
   border: 1px solid #00bdfe;
   padding: 10px 30px;
   display: inline-block;
@@ -163,14 +158,12 @@ body {
 }
 
 .border-button a:hover {
-  background-color: #00bdfe;
   color: #fff;
 }
 
 .main-button a {
   font-size: 15px;
   color: #fff;
-  background-color: #00bdfe;
   border: 1px solid #00bdfe;
   padding: 10px 30px;
   display: inline-block;
@@ -182,7 +175,6 @@ body {
 }
 
 .main-button a:hover {
-  background-color: transparent;
   color: #00bdfe;
 }
 
@@ -229,8 +221,8 @@ Header Style
 --------------------------------------------- 
 */
 
-.background-header {
-  background-color: #fff;
+
+
   height: 70px!important;
   position: fixed!important;
   top: 0!important;
@@ -244,7 +236,6 @@ Header Style
 }
 
 .header-area {
-  background-color: #fff;
   position: absolute;
   height: 70px;
   top: 0;
@@ -259,7 +250,6 @@ Header Style
 
 .header-area .main-nav {
   min-height: 80px;
-  background: transparent;
   display: flex
 }
 
@@ -276,7 +266,7 @@ Header Style
   max-width: 142px;
 }
 
-.background-header .main-nav .logo {
+
   width: 142px;
 }
 
@@ -308,7 +298,6 @@ Header Style
 .header-area .main-nav .nav li {
   padding-left: 30px;
   padding-right: 30px;
-  background-color: #00bdfe;
 }
 
 .header-area .main-nav .nav li a {
@@ -334,7 +323,7 @@ Header Style
 }
 
 .header-area .main-nav .nav li.has-sub ul.sub-menu li:last-child a:hover,
-.background-header .main-nav .nav li.has-sub ul.sub-menu li:last-child a:hover {
+
   padding-left: 25px !important;
 }
 
@@ -343,8 +332,8 @@ Header Style
   color: #fff;
 }
 
-.background-header .main-nav .nav li:hover a,
-.background-header .main-nav .nav li a.active {
+
+
   color: #fff;
   opacity: 1;
 }
@@ -367,7 +356,6 @@ Header Style
 .header-area .main-nav .nav li.has-sub ul.sub-menu {
   position: absolute;
   width: 160px;
-  background-color: #fff;
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
   overflow: hidden;
   top: 70px;
@@ -388,7 +376,6 @@ Header Style
 .header-area .main-nav .nav li.has-sub ul.sub-menu li a {
   opacity: 1;
   display: block;
-  background: #f7f7f7;
   color: #2a2a2a!important;
   padding-left: 20px;
   height: 40px;
@@ -404,7 +391,6 @@ Header Style
 }
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
-  background: #fff;
   color: #00bdfe!important;
   padding-left: 25px;
 }
@@ -434,7 +420,7 @@ Header Style
   display: none;
 }
 
-.background-header .main-nav .menu-trigger {
+
   top: 17px;
 }
 
@@ -445,7 +431,6 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #2a2a2a;
   display: block;
   position: absolute;
   width: 30px;
@@ -453,10 +438,10 @@ Header Style
   left: 0;
 }
 
-.background-header .main-nav .menu-trigger span,
-.background-header .main-nav .menu-trigger span:before,
-.background-header .main-nav .menu-trigger span:after {
-  background-color: #2a2a2a;
+
+
+
+
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -465,7 +450,6 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #2a2a2a;
   display: block;
   position: absolute;
   width: 30px;
@@ -474,9 +458,9 @@ Header Style
   width: 75%;
 }
 
-.background-header .main-nav .menu-trigger span:before,
-.background-header .main-nav .menu-trigger span:after {
-  background-color: #2a2a2a;
+
+
+
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -508,7 +492,6 @@ Header Style
 .header-area .main-nav .menu-trigger.active span,
 .header-area .main-nav .menu-trigger.active span:before,
 .header-area .main-nav .menu-trigger.active span:after {
-  background-color: transparent;
   width: 100%;
 }
 
@@ -517,11 +500,10 @@ Header Style
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #2a2a2a;
 }
 
-.background-header .main-nav .menu-trigger.active span:before {
-  background-color: #2a2a2a;
+
+
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -529,11 +511,10 @@ Header Style
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #2a2a2a;
 }
 
-.background-header .main-nav .menu-trigger.active span:after {
-  background-color: #2a2a2a;
+
+
 }
 
 .header-area.header-sticky {
@@ -564,10 +545,10 @@ Header Style
     left: 30px;
     top: 15px;
   }
-  .background-header .main-nav .logo {
+
     top: 0px;
   }
-  .background-header .main-nav .border-button {
+
     top: 0px !important;
   }
   .header-area .main-nav .border-button {
@@ -584,7 +565,6 @@ Header Style
     width: 100%;
   }
   .header-area {
-    background-color: #f7f7f7;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -618,12 +598,11 @@ Header Style
   .header-area.header-sticky .nav {
     margin-top: 100px !important;
   }
-  .background-header.header-sticky .nav {
+
     margin-top: 70px !important;
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #fff;
     border-bottom: 1px solid #eee;
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -633,11 +612,9 @@ Header Style
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #f7f7f7 !important;
     color: #191a20 !important;
   }
   .header-area .main-nav .nav li a:hover {
-    background: #eee !important;
     color: #00bdfe!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
@@ -687,7 +664,6 @@ PopUp Style
   left: 0px;
   height: 100%;
   width: 100%;
-  background: #000;
   display: none;
 }
 
@@ -701,28 +677,23 @@ section.popupBody {
   height: auto;
   left: 45%;
   top: 60px;
-  background: #FFF;
 }
 
 .btn {
   padding: 10px 20px;
-  background: #00bdfe;
   color: #fff;
   transition: all .3s;
 }
 
 .btn_red {
-  background: #00bdfe;
   color: #FFF;
 }
 
 .btn:hover {
-  background: #E4E4E2;
 }
 
 .btn_red:hover {
   color: #2a2a2a;
-  background: #E4E4E2;
 }
 
 a.btn {
@@ -752,7 +723,6 @@ a.btn_red {
 }
 
 .popupHeader {
-  background: #F4F4F2;
   position: relative;
   padding: 10px 20px;
   border-bottom: 1px solid #DDD;
@@ -764,7 +734,6 @@ a.btn_red {
   right: 0;
   top: 0;
   padding: 10px 15px;
-  background: #00bdfe;
   cursor: pointer;
   color: #fff;
   font-size: 16px;
@@ -779,7 +748,6 @@ a.btn_red {
   clear: both;
   padding: 10px;
   margin-bottom: 10px;
-  background: #F4F4F2;
   overflow: hidden;
 }
 
@@ -795,11 +763,9 @@ a.btn_red {
 }
 
 .social_login .fb .icon {
-  background: #3B5998;
 }
 
 .social_login .google .icon {
-  background: #DD4B39;
 }
 
 .social_login .icon_title {
@@ -812,7 +778,6 @@ a.btn_red {
 }
 
 .social_login .social_box:hover {
-  background: #E4E4E2;
 }
 
 .centeredText {
@@ -938,7 +903,8 @@ Banner Style
   padding-top: 290px;
   padding-bottom: 240px;
   text-align: center;
-  background-color: #2a2a2a;
+  background-color: rgba(0, 128, 0, 0.7); /* Adjust the alpha (last) value as needed (0.7 for 70% opacity) */
+
 }
 
 .main-banner h2 {
@@ -969,7 +935,6 @@ Banner Style
 .main-banner .big-border-button a {
   font-size: 20px;
   color: #fff;
-  background-color: transparent;
   border: 1px solid #fff;
   padding: 15px 30px;
   display: inline-block;
@@ -982,7 +947,6 @@ Banner Style
 }
 
 .main-banner .big-border-button a:hover {
-  background-color: #fff;
   color: #00bdfe;
 }
 
@@ -1031,7 +995,6 @@ section.featured-items {
 }
 
 .featured-items .item .thumb .hover-effect {
-  background-color: rgba(250,250,250,0.92);
   left: 0;
   top: 100%;
   width: 100%;
@@ -1110,7 +1073,6 @@ section.featured-items {
   font-size: 24px;
   display: inline-block;
   color: #fff;
-  background-color: #00bdfe;
   border-radius: 50%;
   opacity: 0.75;
   transition: all .3s;
@@ -1148,7 +1110,6 @@ section.popular-categories .main-button {
 }
 
 .popular-item .icon {
-  background-color: #f7f7f7;
   width: 75px;
   height: 75px;
   display: inline-block;
@@ -1178,7 +1139,6 @@ section.popular-categories .main-button {
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
   color: #00bdfe;
-  background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
   margin-right: 10px;
 }
@@ -1200,7 +1160,6 @@ section.popular-categories .main-button {
 .popular-item .thumb span.category {
   font-size: 15px;
   color: #00bdfe;
-  background-color: #fff;
   border-radius: 10px;
   font-weight: 500;
   position: absolute;
@@ -1214,7 +1173,6 @@ section.popular-categories .main-button {
 .popular-item .thumb span.likes {
   font-size: 15px;
   color: #00bdfe;
-  background-color: #fff;
   border-radius: 10px;
   font-weight: 500;
   position: absolute;
@@ -1248,10 +1206,6 @@ closed contests
 */ 
 
 section.closed-contests {
-  background-image: url(../images/closed-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   padding: 120px 0px;
 }
 
@@ -1268,7 +1222,6 @@ section.closed-contests {
 .closed-item .thumb span.winner {
   font-size: 15px;
   color: #00bdfe;
-  background-color: #fff;
   border-radius: 10px;
   font-weight: 500;
   position: absolute;
@@ -1287,7 +1240,6 @@ section.closed-contests {
 .closed-item .thumb span.price {
   font-size: 15px;
   color: #00bdfe;
-  background-color: #fff;
   border-radius: 10px;
   font-weight: 500;
   position: absolute;
@@ -1312,7 +1264,6 @@ section.closed-contests {
 .closed-item .down-content {
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  background-color: #fff;
   padding: 25px 30px;
 }
 
@@ -1355,14 +1306,12 @@ section.closed-contests {
   font-size: 24px;
   display: inline-block;
   color: #afafaf;
-  background-color: #fff;
   border-radius: 50%;
   transition: all .3s;
 }
 
 .closed-contests .owl-nav .owl-prev span:hover,
 .closed-contests .owl-nav .owl-next span:hover {
-  background-color: #00bdfe;
   color: #fff;
 }
 
@@ -1453,7 +1402,6 @@ footer.no-space {
 }
 
 footer {
-  background-color: #00bdfe;
   text-align: center;
   padding: 25px 0px;
   margin-top: 120px;
@@ -1478,14 +1426,9 @@ page heading
 */
 
 .page-heading {
-  background-image: url(../images/heading-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   padding-top: 200px;
   padding-bottom: 130px;
   text-align: center;
-  background-color: #2a2a2a;
 }
 
 .page-heading h2 {
@@ -1562,7 +1505,6 @@ Contests Page
 
 #search-form {
   margin-top: -69px;
-  background-color: #fff;
   border-radius: 15px;
   padding: 30px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
@@ -1576,7 +1518,6 @@ Contests Page
 
 #search-form input,
 #search-form select {
-  background-color: #f7f7f7;
   width: 100%;
   height: 46px;
   border-radius: 10px;
@@ -1595,7 +1536,6 @@ Contests Page
   margin-top: 30px;
   font-size: 15px;
   color: rgb(255, 255, 255);
-  background-color: rgb(0, 189, 254);
   border: 1px solid rgb(0, 189, 254);
   padding: 10px 30px;
   display: inline-block;
@@ -1607,7 +1547,6 @@ Contests Page
 }
 
 #search-form button:hover {
-  background-color: transparent;
   color: #00bdfe;
 }
 
@@ -1627,7 +1566,6 @@ Contests Page
 .photos-videos .item .thumb .play-button a {
   width: 46px;
   height: 46px;
-  background-color: #fff;
   border-radius: 50%;
   color: #00bdfe;
   text-align: center;
@@ -1650,7 +1588,6 @@ Contests Page
   top: 30px;
   left: 30px;
   right: 30px;
-  background-color: #fff;
   border-radius: 10px;
   padding: 15px 25px;
 }
@@ -1704,7 +1641,6 @@ Contests Page
 .contest-win .contest-item .top-content span.award {
   font-size: 15px;
   color: #fff;
-  background-color: #00bdfe;
   border-radius: 10px;
   padding: 8px 12px;;
 }
@@ -1800,7 +1736,6 @@ Contests Page
 }
 
 .contest-win ul.pagination li.active a {
-  background-color: #00bdfe;
   color: #fff;
 }
 
@@ -1817,7 +1752,6 @@ Contest Details Page
 */
 
 .contest-details .top-content {
-  background-color: #e7f9ff;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   padding: 30px 45px;
@@ -1850,7 +1784,6 @@ Contest Details Page
 
 .contest-details .top-content span.open {
   font-size: 15px;
-  background-color: #00bdfe;
   color: #fff;
   padding: 8px 12px;
   border-radius: 10px;
@@ -1899,7 +1832,6 @@ Contest Details Page
 .contest-details .main-content p:before {
   width: 7px;
   height: 7px;
-  background-color: #afafaf;
   content: '';
   position: absolute;
   left: 0;
@@ -1914,7 +1846,6 @@ Contest Details Page
 }
 
 .contest-details .main-content .item span {
-  background-color: #f0f0f0;
   border-radius: 10px;
   font-size: 14px;
   color: #2a2a2a;
@@ -1962,7 +1893,6 @@ Contest Details Page
 }
 
 .contest-waiting .waiting-item .down-content {
-  background-color: #f7f7f7;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   padding: 25px;
@@ -2020,7 +1950,6 @@ Contest Details Page
 }
 
 .contest-waiting ul.pagination li.active a {
-  background-color: #00bdfe;
   color: #fff;
 }
 
@@ -2043,14 +1972,12 @@ Categories Page
 
 .top-categories .item {
   text-align: center;
-  background-color: #fff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   padding: 30px;
 }
 
 .top-categories .item .icon {
-  background-color: #f7f7f7;
   width: 75px;
   height: 75px;
   display: inline-block;
@@ -2087,7 +2014,6 @@ Categories Page
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
   color: #00bdfe;
-  background-color: #fff;
   box-shadow: 0px 0px 10px rgb(0 0 0 / 6%);
   margin-right: 10px;
 }
@@ -2118,7 +2044,6 @@ Categories Page
 }
 
 .featured-contests .item .hover-effect .content {
-  background-color: #fff;
   border-radius: 15px;
   padding: 25px 20px;
 }
@@ -2130,7 +2055,6 @@ Categories Page
 .featured-contests .item .hover-effect .content .top-content span.award {
   font-size: 15px;
   color: #fff;
-  background-color: #00bdfe;
   border-radius: 10px;
   padding: 8px 12px;;
 }
@@ -2205,7 +2129,6 @@ Categories Page
 }
 
 .testimonials {
-  background-color: #f1fbff;
   padding: 120px 0px;
 }
 
@@ -2270,7 +2193,6 @@ Categories Page
 }
 
 .testimonials .owl-dots .active {
-  background-color: #00bdfe;
   border: 1px solid #00bdfe;
 }
 
@@ -2324,7 +2246,6 @@ Users Page
 
 section.portfolio {
   padding: 80px 0px;
-  background-color: #f7f7f7;
 }
 
 section.portfolio .thumb {
@@ -2345,7 +2266,6 @@ section.portfolio .thumb .hover-effect {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(42, 42, 42, 0.9);
   opacity: 0;
   visibility: hidden;
   transition: all .3s;
@@ -2396,14 +2316,12 @@ section.portfolio .thumb .hover-effect .content ul li a {
   text-align: center;
   line-height: 46px;
   border-radius: 10px;
-  background-color: #fff;
   color: #2a2a2a;
   font-size: 15px;
   transition: all .3s;
 }
 
 section.portfolio .thumb .hover-effect .content ul li a:hover {
-  background-color: #00bdfe;
   color: #fff;
 }
 
@@ -2416,7 +2334,6 @@ section.contact-us .info-item {
   text-align: center;
   padding: 30px;
   border-radius: 15px;
-  background-color: #fff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   position: relative;
   z-index: 2;
@@ -2425,7 +2342,6 @@ section.contact-us .info-item {
 
 section.contact-us .info-item i {
   font-size: 32px;
-  background-color: #00bdfe;
   color: #fff;
   width: 80px;
   height: 80px;
@@ -2461,7 +2377,6 @@ section.contact-us .info-item a:hover {
 #contact input {
   width: 100%;
   height: 50px;
-  background-color: #f7f7f7;
   color: #2a2a2a;
   border-radius: 5px;
   border: none;
@@ -2477,7 +2392,6 @@ section.contact-us .info-item a:hover {
   height: 180px;
   max-height: 24px;
   min-height: 150px;
-  background-color: #f7f7f7;
   color: #2a2a2a;
   border-radius: 10px;
   border: none;
@@ -2490,7 +2404,6 @@ section.contact-us .info-item a:hover {
 
 #contact input:focus,
 #contact textarea:focus {
-  background-color: #fff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.06);
 }
 
@@ -2503,7 +2416,6 @@ section.contact-us .info-item a:hover {
   width: 100%;
   text-align: center;
   color: #fff;
-  background-color: #00bdfe;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 10px;
@@ -2515,7 +2427,6 @@ section.contact-us .info-item a:hover {
 }
 
 #contact button.orange-button:hover {
-  background-color: transparent;
   border: 1px solid #00bdfe;
   color: #00bdfe;
 }
@@ -2635,4 +2546,8 @@ body {
   .featured-contests .item .hover-effect .content .info {
     display: none;
   }
+}
+
+.text-color {
+  color: #0a53be;
 }
